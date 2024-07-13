@@ -1,0 +1,268 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: Helvetica Neue,Segoe UI,Roboto,Ubuntu,sans-serif;
+}
+
+.one {
+  background-image: url(/images/NG-en-20240708-POP_SIGNUP_TWO_WEEKS-perspective_WEB_1df1b8f0-e470-45ab-9d2d-2756cfb7df4e_small.jpg);
+  background-image: linear-gradient(rgba(0, 0, 0, 0.527),rgba(0, 0, 0, 0.7)) , url(/images/NG-en-20240708-POP_SIGNUP_TWO_WEEKS-perspective_WEB_1df1b8f0-e470-45ab-9d2d-2756cfb7df4e_small.jpg);
+
+}
+
+.one h1{
+    color: white;
+    width: 70%;
+    margin-inline: auto;
+    font-size: 3em;
+    text-align: center;
+}
+
+.one p{
+    color: white;
+    font-size: 1.4em;
+    text-align: center;
+}
+
+#email{
+    margin-inline: 23%;
+    padding-bottom: 80px;
+    display: grid;
+    grid-template-columns: 1.8fr 1fr;
+    gap: 1em;
+    align-items: center;
+    /* width: 100%; */
+}
+
+#email input{
+    padding-block: 15px;
+    padding-inline: 20%;
+    border-radius: 5px;
+    background-color: black;
+    border: 1px solid #B3B3B3;
+    opacity: 0.5;
+    width: 100%;
+}
+
+#email button{
+    padding-block: 13px;
+    /* padding-inline: 2%; */
+    background-color: #E50914;
+    border-radius: 5px;
+    border: none;
+    width: 90%;
+}
+
+#email button a{
+    color: white;
+    text-decoration: none;
+    font-size: 100%;
+}
+
+#first-p{
+    margin-inline: 35%;
+}
+
+#second-p{
+    margin-inline: 20%
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-inline: 10%;
+}
+
+#button1{
+    padding-inline: 15px;
+    padding-block: 10px;
+    border-radius: 7px;
+    background-color: #E50914;
+    border: none;
+}
+
+#button1 a{
+    color: white;
+    text-decoration: none;
+}
+
+.second-div{
+    background-color: black;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding-inline: 10%;
+    align-items: center;
+    padding-block: 90px;
+}
+
+.second-div h1{
+    color: white;
+    font-size: 3em;
+}
+
+.second-div p{
+    color: white;
+    font-size: 1.5em;
+}
+
+.und1{
+    background-color: #232323;
+    height: 12px;
+}
+
+.third-div{
+    background-color: black;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding-inline: 15%;
+    align-items: center;
+    padding-block: 90px;   
+}
+
+.third-div h1{
+    color: white;
+    font-size: 3em;
+    
+}
+
+.third-div p{
+    color: white;
+    font-size: 1.5em;
+}
+
+.fourth-div{
+    background-color: black;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding-inline: 20%;
+    align-items: center;
+    padding-block: 90px;   
+}
+
+.fourth-div h1{
+    color: white;
+    font-size: 3em;
+    
+}
+
+.fourth-div p{
+    color: white;
+    font-size: 1.5em;
+}
+
+.fifth-div{
+    background-color: black;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding-inline: 15%;
+    align-items: center;
+    padding-block: 90px;   
+}
+
+.fifth-div h1{
+    color: white;
+    font-size: 3em;
+    
+}
+
+.fifth-div p{
+    color: white;
+    font-size: 1.5em;
+}
+
+.seventh-div{
+    background-color: black;
+    padding-inline: 10%;
+    padding-block: 70px;
+}
+
+.seventh-div a{
+    color: #B3B3B3;
+}
+
+.seventh-div ul{
+    list-style: none;
+}
+
+.seventh-div li{
+    line-height: 2em;
+}
+
+.seventh-one{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+
+#faq{
+    width: 50%;
+    margin-inline: auto;
+    color: white;
+}
+
+.sixth-div{
+    padding-block: 50px;
+    background-color: black;
+}
+
+.netme{
+    width: 70%;
+    /* margin-inline: auto; */
+}
+
+#email2{
+    margin-inline: 23%;
+    padding-bottom: 80px;
+    display: grid;
+    grid-template-columns: 1.8fr 1fr;
+    gap: 1em;
+    align-items: center;
+    
+}
+
+#email2 input{
+    padding-block: 15px;
+    padding-inline: 20%;
+    border-radius: 5px;
+    background-color: black;
+    border: 1px solid #B3B3B3;
+    opacity: 0.5;
+    width: 100%;
+    /* opacity: 0.5; */
+}
+
+#email2 button{
+    padding-block: 13px;
+    /* padding-inline: 2%; */
+    background-color: #E50914;
+    border-radius: 5px;
+    border: none;
+    width: 90%;
+}
+
+#email2 button a{
+    color: white;
+    text-decoration: none;
+    font-size: 100%;
+}
+
+select{
+    padding: 10px;
+    margin-inline: 3%;
+    /* background-color: black; */
+}
+select option a{
+    color: white;
+}
+
+#button1:hover{
+    background-color: #c6222a;
+}
+
+#email button:hover{
+    background-color: #c6222a;
+}
+
+#email2 button:hover{
+    background-color: #c6222a;
+}

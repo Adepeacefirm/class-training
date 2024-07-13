@@ -1,0 +1,40 @@
+@media (max-width: 600px){
+    #email{
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+
+    #email2{
+        display: grid;
+        grid-template-columns: 1fr;
+        gap: 2em;
+    }
+}
+
+@media (max-width: 960px){
+    .second-div{
+        display: grid;
+        grid-template-columns: 1fr;
+        
+    }
+    
+    .third-div{
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+
+    .fourth-div{
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+
+    .fifth-div{
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+
+    .seventh-one{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+}
