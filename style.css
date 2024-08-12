@@ -80,11 +80,12 @@ nav {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  margin-inline: 10%;
+  width: 90%;
+  margin-inline: auto;
 }
 
 #button1 {
-  padding-inline: 15px;
+  padding-inline: 0.5em;
   padding-block: 10px;
   border-radius: 7px;
   background-color: #e50914;

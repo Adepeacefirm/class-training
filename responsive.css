@@ -13,6 +13,10 @@
     width: 80%;
     margin-inline: auto;
   }
+
+  *{
+    overflow-x: hidden;
+  }
 }
 
 @media (max-width: 960px) {
@@ -114,6 +118,10 @@
     display: grid;
     grid-template-columns: 1fr 1fr;
   }
+
+  *{
+    overflow-x: hidden;
+  }
 }
 
 @media (max-width: 600px) {
@@ -142,4 +150,13 @@
     width: 90%;
     margin-inline: auto;
   }
+
+  nav div img{
+    width: 50%;
+  }
+
+  *{
+    overflow-x: hidden;
+  }
+  
 }
