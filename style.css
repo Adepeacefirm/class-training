@@ -20,8 +20,9 @@ body{
 
 .hero-page h1 {
   color: white;
-  width: 70%;
-  margin-inline: auto;
+  /* width: 70%;
+  margin-inline: auto; */
+
   font-size: 3em;
   text-align: center;
 }
@@ -67,13 +68,13 @@ body{
   font-size: 100%;
 }
 
-#hero-watch {
+/* #hero-watch {
   margin-inline: 35%;
 }
 
 #hero-ready {
   margin-inline: 20%;
-}
+} */
 
 nav {
   display: flex;
