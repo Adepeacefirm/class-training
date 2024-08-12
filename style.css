@@ -5,8 +5,12 @@
   /* border: 1px solid red; */
 }
 
+body{
+  width: 100%;
+}
+
 .hero-page {
-  background-image: url(/images/NG-en-20240708-POP_SIGNUP_TWO_WEEKS-perspective_WEB_1df1b8f0-e470-45ab-9d2d-2756cfb7df4e_small.jpg);
+  background-image: url(./images/NG-en-20240708-POP_SIGNUP_TWO_WEEKS-perspective_WEB_1df1b8f0-e470-45ab-9d2d-2756cfb7df4e_small.jpg);
   background-image: linear-gradient(rgba(0, 0, 0, 0.527), rgba(0, 0, 0, 0.7)),
     url(/images/NG-en-20240708-POP_SIGNUP_TWO_WEEKS-perspective_WEB_1df1b8f0-e470-45ab-9d2d-2756cfb7df4e_small.jpg);
 
